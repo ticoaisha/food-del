@@ -31,4 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
-out/*
+out/production/food-del/runner/*.class
