@@ -18,7 +18,12 @@ public class FoodDelivery {
 
                 String address = new Scanner(System.in).nextLine();
                 System.out.println("Thank you for your order");
-                System.out.println(food + " will be delivered to " + address + " in 20 minutes");
+
+                Driver driver = new Driver("Alex Henriks","Toyota","Camry");
+
+                System.out.println("Your " + food + " will be delivered to " + address + " in 20 minutes by " + driver.getName() + " on " +
+                        driver.getCarMake() + " " + driver.getCarModel());
+
             }else{
                 System.out.println("Come in soon!");
             }
